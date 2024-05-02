@@ -1,0 +1,299 @@
+import React from 'react';
+
+class TestComponent extends React.Component {
+    render() {
+        return (
+            <div>
+                <div className="wrapper">
+                    <div className="sidebar">
+                        <div className="sidebar-header">
+                            <img src="img/profile.jpg" alt="Image" />
+                        </div>
+                        <div className="sidebar-content">
+                            <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+                                <a href="#" className="navbar-brand">Navigation</a>
+                                <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                    <span className="navbar-toggler-icon"></span>
+                                </button>
+                                <div className="collapse navbar-collapse" id="navbarCollapse">
+                                    <ul className="nav navbar-nav">
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="#header">Home<i className="fa fa-home"></i></a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="#about">About<i className="fa fa-address-card"></i></a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="#experience">Experience<i className="fa fa-star"></i></a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="#service">Service<i className="fa fa-tasks"></i></a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="#portfolio">Portfolio<i className="fa fa-file-archive"></i></a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="#contact">Contact<i className="fa fa-envelope"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div className="sidebar-footer">
+                            <a href="#"><i className="fab fa-twitter"></i></a>
+                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div className="content">
+                        <div className="header" id="header">
+                            <div className="content-inner">
+                                <p>I'm</p>
+                                <h1>Abhinandan</h1>
+                                <h2></h2>
+                                <div className="typed-text">Data Analystics, Business Analystics</div>
+                            </div>
+                        </div>
+                        <div className="large-btn">
+                            <div className="content-inner">
+                                <a className="btn" href="#"><i className="fa fa-download"></i>Resume</a>
+                                <a className="btn" href="#"><i className="fa fa-hands-helping"></i>Hire Me</a>
+                            </div>
+                        </div>
+                        <div className="about" id="about">
+                            <div className="content-inner">
+                                <div className="content-header">
+                                    <h2>About Me</h2>
+                                </div>
+                                <div className="row align-items-center">
+                                    <div className="col-md-6 col-lg-5">
+                                        <img src="img/about.jpg" alt="Image" />
+                                    </div>
+                                    <div className="col-md-6 col-lg-7">
+                                        <p>
+                                            Highly motivated Data Analyst with a passion for applying machine learning in the financial sector. Proficient in Python, SQL, and data visualization tools. Proven track record of increasing operational efficiency by 15% through data-driven analysis in previous Business Analyst role. Eager to learn and contribute to innovative projects that leverage data for impactful business decisions.
+                                        </p>
+                                        <a className="btn" href="#">Hire Me</a>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <div className="skills">
+                                            <div className="skill-name">
+                                                <p>Business Statistics</p><p>85%</p>
+                                            </div>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div className="skill-name">
+                                                <p>Python</p><p>95%</p>
+                                            </div>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="skills">
+                                            <div className="skill-name">
+                                                <p>Tableau</p><p>90%</p>
+                                            </div>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div className="skill-name">
+                                                <p>Power Bi</p><p>85%</p>
+                                            </div>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="education" id="education">
+                            <div className="content-inner">
+                                <div className="content-header">
+                                    <h2>Education</h2>
+                                </div>
+                                <div className="row align-items-center">
+                                    <div className="col-md-6">
+                                        <div className="edu-col">
+                                            <span>01-Sept-2023 <i>to</i> 01-April-2050</span>
+                                            <h3>Master In Businerss Administer </h3>
+                                            <p>Collage of commerce arts and science</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="edu-col">
+                                            <span>01-April-2019 <i>to</i> 01-April-2022</span>
+                                            <h3>Bachelor Degree</h3>
+                                            <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="edu-col">
+                                            <span>01-Jan-2020 <i>to</i> 31-Dec-2050</span>
+                                            <h3>Associate Degree</h3>
+                                            <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="edu-col">
+                                            <span>01-Jan-2020 <i>to</i> 31-Dec-2050</span>
+                                            <h3>High School</h3>
+                                            <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="experience" id="experience">
+                            <div className="content-inner">
+                                <div className="content-header">
+                                    <h2>Experience</h2>
+                                </div>
+                                <div className="row align-items-center">
+                                    <div className="col-md-6">
+                                        <div className="exp-col">
+                                            <span>01-March-2024<i>to</i> Ongoing</span>
+                                            <h3>Mitt Arv</h3>
+                                            <h4>Hyderabad,Telegana</h4>
+                                            <h5>Data Analyst-Intern</h5>
+                                            <p>Responsibilities:</p>
+                                            <ul>
+                                                <li>Directed the development and maintenance of scripts utilizing the JIRA API to extract project data, including issues, worklogs, and custom fields, resulting in a 30% increase in data accuracy and project performance.</li>
+                                                <li>Automated data collection processes to streamline data acquisition and improve efficiency.</li>
+                                                <li>Created comprehensive reports using extracted data to track project progress, resource allocation, and identify potential bottlenecks.</li>
+                                                <li>Utilized data visualization tools (e.g., Tableau, Power BI) to present complex data in a clear and visually appealing format for stakeholders.</li>
+                                                <li>Performed cost analyses by combining project data with financial information to assess project profitability and identify cost-saving opportunities.</li>
+                                                <li>Analysed trends and variances in costs to support informed budgeting decisions.</li>
+                                                <li>Monitored and analysed website traffic data in Google Analytics to gain insights into user behaviour, marketing campaign performance, and website performance metrics.</li>
+                                                <li>Generated reports and recommendations for website optimization and targeted marketing strategies.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="exp-col">
+                                            <span>01-Feb-2024 <i>to</i> 01-March-2024</span>
+                                            <h3>Unified Mentors</h3>
+                                            <h4>Remote</h4>
+                                            <h5>Data Analyst-Intern</h5>
+                                            <p>Responsibilities:</p>
+                                            <ul>
+                                                <li>Mastered the use of Tabula, a Python library, to efficiently extract data from various employee-related documents like exit surveys, performance reviews, and compensation reports.</li>
+                                                <li>Implemented data cleaning techniques to address inconsistencies and ensure data quality for analysis.</li>
+                                                <li>Conducted a comprehensive analysis of employee data to identify trends and patterns associated with employee departures.</li>
+                                                <li>Utilized statistical methods and data visualization tools to explore relationships between factors like compensation, workload, and job satisfaction with employee retention.</li>
+                                                <li>Presented key findings and insights from the employee retention analysis in clear and concise reports for management.</li>
+                                                <li>Recommended actionable steps to address identified root causes and improve employee retention rates.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="portfolio" id="portfolio">
+                            <div className="content-inner">
+                                <div className="content-header">
+                                    <h2>Portfolio</h2>
+                                </div>
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <ul id="portfolio-flters">
+                                            <li data-filter="*" className="filter-active">All</li>
+                                            <li data-filter=".web-des">Data Analysis</li>
+                                            <li data-filter=".web-dev">Business Analysis</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="row portfolio-container">
+                                    <div className="col-lg-4 col-md-6 portfolio-item web-des">
+                                        <div className="portfolio-wrap">
+                                            <figure>
+                                                <img src="img/portfolio-1.jpg" className="img-fluid" alt="" />
+                                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Project Name" className="link-preview" title="Preview"><i className="fa fa-eye"></i></a>
+                                                <a href="#" className="link-details" title="More Details"><i className="fa fa-link"></i></a>
+                                                <a className="portfolio-title" href="#">Project Name <span>Data Analyst</span></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 portfolio-item web-des">
+                                        <div className="portfolio-wrap">
+                                            <figure>
+                                                <img src="img/portfolio-2.jpg" className="img-fluid" alt="" />
+                                                <a href="img/portfolio-2.jpg" className="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i className="fa fa-eye"></i></a>
+                                                <a href="#" className="link-details" title="More Details"><i className="fa fa-link"></i></a>
+                                                <a className="portfolio-title" href="#">Project Name <span>Data Analyst</span></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 portfolio-item web-dev">
+                                        <div className="portfolio-wrap">
+                                            <figure>
+                                                <img src="img/portfolio-3.jpg" className="img-fluid" alt="" />
+                                                <a href="img/portfolio-3.jpg" className="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i className="fa fa-eye"></i></a>
+                                                <a href="#" className="link-details" title="More Details"><i className="fa fa-link"></i></a>
+                                                <a className="portfolio-title" href="#">Project Name <span>Data Analyst</span></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 portfolio-item web-dev">
+                                        <div className="portfolio-wrap">
+                                            <figure>
+                                                <img src="img/portfolio-4.jpg" className="img-fluid" alt="" />
+                                                <a href="img/portfolio-4.jpg" className="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i className="fa fa-eye"></i></a>
+                                                <a href="#" className="link-details" title="More Details"><i className="fa fa-link"></i></a>
+                                                <a className="portfolio-title" href="#">Cancer Predecition Model <span>Buainess Analyst</span></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 portfolio-item dig-mar">
+                                        <div className="portfolio-wrap">
+                                            <figure>
+                                                <img src="img/portfolio-5.jpg" className="img-fluid" alt="" />
+                                                <a href="img/portfolio-5.jpg" className="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i className="fa fa-eye"></i></a>
+                                                <a href="#" className="link-details" title="More Details"><i className="fa fa-link"></i></a>
+                                                <a className="portfolio-title" href="#">Project Name <span>Business Analyst</span></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 portfolio-item dig-mar">
+                                        <div className="portfolio-wrap">
+                                            <figure>
+                                                <img src="img/portfolio-6.jpg" className="img-fluid" alt="" />
+                                                <a href="img/portfolio-6.jpg" className="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i className="fa fa-eye"></i></a>
+                                                <a href="#" className="link-details" title="More Details"><i className="fa fa-link"></i></a>
+                                                <a className="portfolio-title" href="#">Project Name <span>Business Analyst</span></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="contact" id="contact">
+                            <div className="content-inner">
+                                <div className="content-header">
+                                    <h2>Contact</h2>
+                                </div>
+                                <div className="row align-items-center">
+                                    <div className="col-md-6">
+                                        <div className="contact-info">
+                                            <p><i className="fa fa-user"></i>Abhinandan</p>
+                                            <p><i className="fa fa-tag"></i>Data & Business Analyst</p>
+                                            <p><i className="fa fa-envelope"></i><a href="mailto:info@example.com">abhinandanroy165@gmail.com</a></p>
+                                            <p><i className="fa fa-phone"></i><a href="tel:+1234567890">+91-7979960227</a></p>
+                                            <p><i className="fa fa-map-marker"></i>Begumpet,Hyderabad, Telegana</p>
+                                            <div className="social">
+                                                <a className="btn" href=""><i className="fab fa-twitter"></i></a>
+                                                <a className="btn" href=""><i className="fab fa-facebook-f"></i></a>
+                                                <a className="btn" href=""><i className="fab fa-linkedin-in"></i></a>
+                                                <a className="btn" href=""><i className="fab fa-instagram"></i></a>
+                                                <a className="btn" href=""><i className="fab fa-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="form">
+                                            <form></div></li></ul></div>
